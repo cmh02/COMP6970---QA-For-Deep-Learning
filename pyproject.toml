@@ -9,9 +9,5 @@ authors = [
 requires-python = ">=3.13"
 dependencies = []
 
-[project.scripts]
-comp6970-qa-for-deep-learning = "comp6970_qa_for_deep_learning:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
