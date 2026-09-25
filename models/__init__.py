@@ -3,7 +3,12 @@
 from .basic import (
     BasicNeuralNetwork,
 )
+from .instrumentation import (
+    InstrumentationModel,
+)
 
 __all__ = [
     "BasicNeuralNetwork",
+    "InstrumentationModel",
 ]
+
